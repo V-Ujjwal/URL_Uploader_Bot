@@ -31,7 +31,7 @@
             "description" : "Your(owner's) telegram id"
         }
     },
-    "stack" : "heroku-20",
+    "stack" : "heroku-22",
     "buildpacks" : [
         {
             "url" : "heroku/python"
