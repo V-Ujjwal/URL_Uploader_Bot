@@ -18,6 +18,6 @@ async def start_handler(bot, update):
 @Client.on_message(filters.private & filters.command("help"))
 async def help_handler(bot, update):
     if await search_user_in_community(bot, update):
-        await update.reply_text(BotMessage.help_msg, parse_mode = 'html')
+        await update.reply_text(BotMessage.help_msg, parse_mode = 'markdown')
     return
 
